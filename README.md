@@ -1,7 +1,7 @@
 # Assignment-1-FED-
 Assignment 1 Repository (FED) - Joseph
 
-For my Assignment 1, I'm planning to design a website for a virtual reality game development company. For this website, I will be including things like concept art, game trailers, and other relevant information that is needed about the games my company is working on. 
+For my Assignment 1, I'm planning to create a website for a virtual reality game development company. For this website, I will be including things like concept art, game trailers, and other relevant information that is needed about the games my company is working on. 
 
 Here are a few pointers:
 
