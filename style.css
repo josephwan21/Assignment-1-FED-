@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(124, 124, 124, 0.35); /* Translucent black background */
+    padding: 20px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    width: 100%;
+}
+
+header a img {
+    width: 250px;
+    height: auto;
+}
+
+section{
+    padding: 160px 20px;
+    text-align: center;
+}
+
+nav{
+    text-align: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: right;
+}
