@@ -3,12 +3,19 @@ Assignment 1 Repository (FED) - Joseph
 
 For my Assignment 1, I'm planning to create a website for a virtual reality game development company. For this website, I will be including things like concept art, game trailers, and other relevant information that is needed about the games my company is working on. 
 
-Here are a few pointers:
+User Audience Intent & Purpose
+-----------------------------
+- The user audience's intent is to explore virtual reality gaming experiences through our website.
+- Find out more about Enigma Innovations' products
+- Be able to access information about the company, its team and contact information.
 
-- Making a good website would require a user-friendly navigation menu that allows visitors to easily look for information about the virtual reality games that our company has in store for them. 
+Who the website caters for
+-----------------------------
+- The website is mainly targeted towards audiences who are interested or passionate in virtual reality gaming and wish to buy the VR video games that our company offers.
 
-- There will be a header which would contain a menu of hyperlinks in the homepage that will link to sections such as "Games", "About Us", "Team", and "Contact" which would make these sections easily accessible.
+What the company caters for
+-----------------------------
+- The company itself showcases its products, providing information about the team, and offering a section where users can contact us in case of any inquiries.
 
-- The content will be laid out on how I want it to be, the arrangements, positioning of images, text, videos etc.
 
 

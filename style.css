@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://t3.ftcdn.net/jpg/04/12/26/78/360_F_412267823_WKG376lrKcs72lBdNXdU5egAQv2G0TEN.jpg');
+    background-image: url("VRBackgroundImage.jpg");
     background-size: cover;
     background-repeat: no-repeat; /*Ensure that the background image does NOT duplicate itself several times*/
 }
@@ -25,6 +25,40 @@ header a img {
 section{
     padding: 115px 20px;
     text-align: center;
+    color: white;
+}
+
+.latestproductshowcase {
+    display: flex;
+    align-items: center;
+}
+
+.latestproductshowcase img{
+    width: 500px;
+    margin-top: -200px;
+    height: auto;
+    border-radius:5px;
+}
+
+.latestproductdesc{
+    margin-top: -650px;
+    margin-left: 10px;
+}
+
+.buy-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 20px;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
     color: white;
 }
 
@@ -57,6 +91,7 @@ nav a {
     padding: 5px;
     margin-left: 35px;
     margin-right: 5px;
+    border: none;
     border-radius: 5px;
 }
 
