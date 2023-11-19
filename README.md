@@ -17,5 +17,16 @@ What the company caters for
 -----------------------------
 - The company itself showcases its products, providing information about the team, and offering a section where users can contact us in case of any inquiries.
 
+Credits
+-----------------------------
+The Logo was made from a logo generator from: https://www.logomaker.com/
+
+The Half-Alyx Photo was obtained from: http://t3.gstatic.com/images?q=tbn:ANd9GcTKph39Ds8Xh-8Wvk3lsWQpzOqlg5E8uQ3oo6cRIH18NClE6vDxYk7WuqqdGkEKQ3oX86uthw
+
+The image used for the website background was obtained from: https://c4.wallpaperflare.com/wallpaper/923/532/1009/vr-concept-virtual-reality-headset-wallpaper-preview.jpg
+
+
+
+
 
 
