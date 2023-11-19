@@ -27,6 +27,8 @@ The image used for the website background was obtained from: https://c4.wallpape
 
 The social media icons from the footer of: https://www.picoxr.com/sg
 
+JavaScript DOMContentLoaded Event and EventListener reference from: https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
+
 
 
 
