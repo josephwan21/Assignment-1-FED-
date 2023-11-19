@@ -25,6 +25,8 @@ The Half-Alyx Photo was obtained from: http://t3.gstatic.com/images?q=tbn:ANd9Gc
 
 The image used for the website background was obtained from: https://c4.wallpaperflare.com/wallpaper/923/532/1009/vr-concept-virtual-reality-headset-wallpaper-preview.jpg
 
+The social media icons from the footer of: https://www.picoxr.com/sg
+
 
 
 
