@@ -4,18 +4,17 @@ body {
     padding: 0;
     background-image: url('https://t3.ftcdn.net/jpg/04/12/26/78/360_F_412267823_WKG376lrKcs72lBdNXdU5egAQv2G0TEN.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*Ensure that the background image does NOT duplicate itself several times*/
 }
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*Tried to space out the Logo and the 4 hyperlinks which was probably one of the few annoying parts*/
     background-color: rgba(255, 255, 255, 0.6); /* Translucent white background */
-    padding: 0px;
     align-items: center;
     color: black;
-    position: fixed; 
-    width: 100%;
+    position: fixed;
+    width: 100%; /*Ensuring the background color of the header stretches out to the right side of the page*/
 }
 
 header a img {
@@ -75,7 +74,7 @@ footer {
     color: white;
     padding: 20px;
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    bottom: 0; /*Footer to be situated at the bottom*/
+    width: 100%; /*Footer background colour to be stretched out to the right side of the page as well*/
 }
 
