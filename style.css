@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("VRBackgroundImage.jpg");
+    background-image: url("../ImageFiles/VRBackgroundImage.jpg");
     background-size: cover;
     background-repeat: no-repeat; /*Ensure that the background image does NOT duplicate itself several times*/
 }
@@ -23,7 +23,7 @@ header a img {
 }
 
 section{
-    padding: 115px 20px;
+    padding: 115px 25px;
     text-align: center;
     color: white;
 }
