@@ -78,6 +78,9 @@ section{
     margin: 8.5px; /*Spacings between each game*/
     text-align: center;
     font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding: 20px;
     overflow-wrap: break-word; /*In case the sentences in the description of the game stretch out too long, it'll just wrap it over to the next line to avoid taking up
     too much space*/
 }
@@ -140,7 +143,7 @@ section{
 
 #contact{
     display: flex; /*Usage of flex boxes to arrange contents for those that have the ID of contact*/
-    padding: 115px 250px; /*Specifically for the "Contact Us" page, the "Contact Us" header is arranged on one side of the page while the FAQ on the other*/
+    padding: 115px 150px; /*Specifically for the "Contact Us" page, the "Contact Us" header is arranged on one side of the page while the FAQ on the other*/
     justify-content: flex-start; /*Contact Us header to be on the left side of the screen.*/
     text-align: center;
     color: white; /*Text color to be white*/
@@ -180,7 +183,11 @@ textarea {
     text-align: left;
     font-size: 14px;
     font-weight: bold;
+    margin-left: 255px;
+    background-color: rgba(156, 141, 141, 0.45);
     overflow-wrap: break-word;
+    width: 50%;
+    border-radius: 10px;
 }
 
 /*CSS Styles on Buy Now and Learn More button*/
@@ -256,9 +263,52 @@ footer {
     background-color: #333;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 5px;
     bottom: 0; /*Footer to be situated at the bottom*/
     width: 100%; /*Footer background colour to be stretched out to the right side of the page as well*/
 }
 
+/*Media Queries Part*/
+@media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column; /*Display the header elements in column format when in mobile view*/
+      align-items: center;
+    }
 
+    .latestproductshowcase {
+        flex-direction: column; /*Display latest product showcase in column format*/
+        align-items: center;
+    }
+    
+    .latestproductshowcase img {
+        width: 80%; /* Adjust the width to your preference for smaller screens */
+        margin-top: -150px; /* Reset margin */
+    }
+    
+    .latestproductdesc {
+        margin-top: 20px; /* Adjust the margin for better spacing */
+        margin-left: 0; /* Reset margin spacing*/
+        text-align: center; /*Adjust text alignment for smaller screens*/
+    }
+      
+    section h2 {
+        margin-top: 100px; /* Adjust the margin for smaller screens */
+    }
+    #contact {
+        padding: 50px 25px; /* Adjusted padding for smaller screens */
+    }
+    .faq-list ul{
+        margin-left: 0px;
+        font-size: 9.5px;
+    }
+    .contact-elements input,
+    .contact-elements textarea {
+        padding: -15px; /* Adjusted padding for input boxes on smaller screens */
+    }
+    .game{
+        padding: 5px; /*Adjusted the padding for the individual games on smaller screens*/
+    }
+}
+
+    
+    
