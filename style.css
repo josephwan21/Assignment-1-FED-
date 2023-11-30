@@ -1,29 +1,32 @@
+
+/*Body Section*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     position: relative;
-    min-height: 100vh;
-    background-image: url("ImageFiles/VRBackgroundImage.jpg");
-    background-size: cover;
+    min-height: 100vh; 
+    background-image: url("ImageFiles/VRBackgroundImage.jpg"); /*Included in the Background image*/
+    background-size: cover; /*Ensure that the background covers the entire page*/
     background-repeat: no-repeat; /*Ensure that the background image does NOT duplicate itself several times*/
 }
 
-body:after {       /*Set up an overlay to make the background seem darker*/
+body:after { /*Set up an overlay to make the background seem darker*/
     content: '';
-    position: fixed;
+    position: fixed; /*When scrolling up and down, the overlay scrolls together*/
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%; /*Ensure the width and height of the overlay take up the entirety of the background while also being placed behind the background.*/
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2); 
-    z-index: -1; /* Place the overlay behind other elements */
+    background-color: rgba(0, 0, 0, 0.2); /*Translucent overlay*/
+    z-index: -1; /* Negative z-index to place the overlay behind other elements and the background*/
 }
 
+/*Header Part*/
 header {
-    display: flex;
+    display: flex; /*Usage of flex boxes to arrange contents in the header*/
     justify-content: space-evenly; /*Tried to space out the Logo and the 4 hyperlinks which was probably one of the few annoying parts*/
-    background-color: rgba(255, 255, 255, 0.6); /* Translucent white background */
+    background-color: rgba(255, 255, 255, 0.6); /*Translucent white background*/
     align-items: center;
     color: black;
     position: fixed;
@@ -31,100 +34,98 @@ header {
 }
 
 header a img {
-    width: 215px;
+    width: 215px; /*Limited the size of the Enigma Innovations Logo*/
     height: auto;
 }
 
+
+/*CSS Styles on Section Tags*/
 section{
-    padding: 115px 25px;
-    text-align: center;
-    color: white;
-}
-
-#contact{
-    display: flex;
-    padding: 115px 250px; /*115 200*/
-    justify-content: flex-start;
-    text-align: center;
-    color: white;
-    font-size: 25px;
+    padding: 115px 25px; /*Paddings to arrange the contents of the Section tag into their suitable and proper positions in the website.*/
+    text-align: center; 
+    color: white; /*Text color to be white*/
 }
 
 
+
+/*Latest Product Part*/
 .latestproductshowcase {
     display: flex;
     align-items: center;
 }
 
 .latestproductshowcase img{
-    width: 500px;
-    margin-top: -200px;
+    width: 500px;             
+    margin-top: -200px; /*Essentially just the necessary arrangements for the image to be placed in a suitable position on the website*/
     height: auto;
-    border-radius:5px;
+    border-radius:5px; /*Curved edges for the image*/
 }
 
 .latestproductdesc{
-    margin-top: -650px;
+    margin-top: -650px; /*Arrangements for the description*/
     margin-left: 10px;
 }
 
+/*Games Section Part*/
 .game-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*When contents reach end of the page, or squished, the contents will move down a row*/
     justify-content: center; 
     
 }
 
 .game{
-    margin: 8.5px;
+    margin: 8.5px; /*Spacings between each game*/
     text-align: center;
     font-weight: bold;
-    overflow-wrap: break-word;
+    overflow-wrap: break-word; /*In case the sentences in the description of the game stretch out too long, it'll just wrap it over to the next line to avoid taking up
+    too much space*/
 }
 
 .game img{
-    width: 350px;
+    width: 350px; /*Again, limiting image size*/
     height: auto;
-    border: 10px solid white;
+    border: 10px solid white; /*Creating a white border around the image*/
     border-radius: 25px;
-    transition: transform 0.3s;
+    transition: transform 0.3s; /*Creating a transition animation that takes 0.3s to take effect once interacted with*/
 }
 
 .game img:hover{
-    transform: scale(1.1);
+    transform: scale(1.1); /*When mouse hovers over the game images, the images expand in size momentarily until the user mouses off the image*/
 }
+
+/*About Us Section Part*/
 
 .about-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(150, 150, 150, 0.6); /* Translucent background */
-    border-radius: 25px;
+    background-color: rgba(150, 150, 150, 0.6); /* Translucent background for the "About Us" description */
+    border-radius: 25px; /*Background color to also have curved edges*/
     font-weight: bold;
 }
 
 .about-enigma{
-    text-align: left;
+    text-align: left; /*Shifting the text to the left for suitable formatting on how the text should be laid out*/
 }
-.about-enigma img{
-    align-items: center;
-}
+
+/*Team Section Part*/
 .team-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 50%; /*Curved edges*/
 }
 
 .team-member{
-    margin: 8.5px;
+    margin: 8.5px; /*Spaces between each team member profile*/
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; 
     overflow-wrap: break-word;
 }
 
 .team-member img{
-    width: 125px;
+    width: 125px; /*Had to limit image size as well*/
     height: auto;
     border: 5px solid white;
     border-radius: 50%;
@@ -135,10 +136,21 @@ section{
     transform: scale(1.1);
 }
 
-.contact-and-faq{
+/*Contact Us Section*/
+
+#contact{
+    display: flex; /*Usage of flex boxes to arrange contents for those that have the ID of contact*/
+    padding: 115px 250px; /*Specifically for the "Contact Us" page, the "Contact Us" header is arranged on one side of the page while the FAQ on the other*/
+    justify-content: flex-start; /*Contact Us header to be on the left side of the screen.*/
+    text-align: center;
+    color: white; /*Text color to be white*/
+    font-size: 25px; /*Suitable changes to font size*/
+}
+
+.contact-and-faq{ 
     display: flex;
-    justify-content: space-between;
-    width: 75%;
+    justify-content: space-between; /*Dividing the input boxes and FAQ apart*/
+    width: 75%; /*To determine the space between "Contact Us" and "FAQ"*/
 }
 
 .contact-elements{
@@ -146,7 +158,7 @@ section{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 100px; /*Necessary arrangements*/
     margin-left: -200px;
 }
 
@@ -164,34 +176,36 @@ textarea {
 }
 
 .faq-list ul{
-    list-style-type: none;
+    list-style-type: none; /*Ensure the FAQ questions and answers don't display as a bulleted list*/
     text-align: left;
     font-size: 14px;
     font-weight: bold;
     overflow-wrap: break-word;
 }
 
+/*CSS Styles on Buy Now and Learn More button*/
 .buy-now-button {
-    display: inline-block;
-    padding: 10px 20px;
+    display: inline-block; /*Ensure the buy now button and learn more button are in line with each other*/
+    padding: 10px 20px; 
     margin-right: 10px;
     text-decoration: none;
     color: white;
     background-color: lightseagreen;
     border-radius: 20px;
-    transition: transform 0.3s;
+    transition: transform 0.3s; /*Yet again, the image size animation*/
 }
 
 .buy-now-button:hover{
     transform: scale(1.1);
 }
 .learn-more-button {
-    display: inline-block;
+    display: inline-block; 
     padding: 10px 20px;
     margin-right: 10px;
     color: white;
 }
 
+/*CSS Styles on navigation tag and hyperlinks*/
 nav{
     display: flex;
     align-items: center;
@@ -200,26 +214,27 @@ nav{
 
 nav ul{
     display: flex;
-    list-style-type: none;
+    list-style-type: none; /*Ensure that the navigation links are not displayed in bullet form*/
 }
 
 nav ul li{
-    margin-left: 45px;
+    margin-left: 45px; /*Arrangement and spacings for the navigation links*/
 }
 
 nav a {
-    text-decoration: none;
+    text-decoration: none; /*Ensure that the navigation link isn't underlined*/
     color: black;
     font-weight: bold;
 }
 
+/*CSS Styles on Search Bar*/
 .search-bar{
     display: flex;
     align-items: center;
 }
 
 .search-bar input {
-    padding: 5px;
+    padding: 5px;      /*Arrangements and size of the search-bar input box*/
     margin-left: 35px;
     margin-right: 5px;
     border: none;
@@ -227,7 +242,7 @@ nav a {
 }
 
 .search-bar button {
-    padding: 5px 16px;
+    padding: 5px 16px; /*Arrangements and size of the search-bar button*/
     background-color: blue;
     color: white;
     border: none;
@@ -235,8 +250,9 @@ nav a {
     margin-bottom: 10px;
 }
 
+/*Finally, the footer part of the html files*/
 footer {
-    position: absolute;
+    position: absolute; 
     background-color: #333;
     text-align: center;
     color: white;
@@ -244,4 +260,5 @@ footer {
     bottom: 0; /*Footer to be situated at the bottom*/
     width: 100%; /*Footer background colour to be stretched out to the right side of the page as well*/
 }
+
 
