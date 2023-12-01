@@ -303,7 +303,7 @@ footer {
     }
     .contact-elements input,
     .contact-elements textarea {
-        padding: -15px; /* Adjusted padding for input boxes on smaller screens */
+        padding: 15px; /* Adjusted padding for input boxes on smaller screens */
     }
     .game{
         padding: 5px; /*Adjusted the padding for the individual games on smaller screens*/
