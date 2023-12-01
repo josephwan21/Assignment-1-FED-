@@ -24,19 +24,20 @@ Wireframes are included in the project as well, do look forward to it!
 
 Features
 -----------------------------
-- Ease of Navigation
+
+- Ease of Navigation  
 The website is designed in a way that is intuitive for users to navigate to different sections of the website and content displayed to users won't be too cluttered such that it'll paralyze the user. Hence, ease of navigation and easier comprehension.
 
-- Glowing Navigation Links
+- Glowing Navigation Links  
 Upon hovering your mouse cursor over the navigation links, the links will change colour upon contact. 
 
 - Interactive Images  
 Upon hovering your mouse cursor over images, whether it be on the home page or any other page, the image will slightly increase in size momentarily until you mouse off the image
 
-- Buttons that have redirection capabilities
+- Buttons that have redirection capabilities  
 There are buttons specifically "Buy Now" buttons that will redirect you to a Steam webpage that relates to its game.
 
-- Contact Us Input Boxes 
+- Contact Us Input Boxes  
 Allow users to type in particulars in case they wish they have further inquiries on the company or what it offers whatsover.
 
 Technologies Used
@@ -47,8 +48,10 @@ Technologies Used
 
 Credits
 -----------------------------
+<h3>
+<strong>Media</strong>
+</h3>
 
-<strong>Media></strong>
 - The Logo was made from a logo generator from: https://www.logomaker.com/
 
 - The Half-Life: Alyx Photo was obtained from: http://t3.gstatic.com/images?q=tbn:ANd9GcTKph39Ds8Xh-8Wvk3lsWQpzOqlg5E8uQ3oo6cRIH18NClE6vDxYk7WuqqdGkEKQ3oX86uthw
@@ -77,7 +80,9 @@ Credits
 
 - The Todd Howard photo was obtained from: https://en.wikipedia.org/wiki/Todd_Howard
 
+<h3>
 <strong>Code References</strong>
+</h3>
 
 - JavaScript DOMContentLoaded Event and EventListener reference from: https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 
