@@ -3,10 +3,28 @@ Assignment 1 Repository (FED) - Joseph
 
 For my Assignment 1, I'm planning to create a website for a virtual reality game development company. For this website, I will be including the relevant content that is needed like the latest virtual reality game our company offers, list of virtual reality games we can offer to our customers, what our company is about, the team our company has and of course a Contact Us section and other information that is needed about the games my company is working on. 
 
+About the Company
+-----------------------------
+Hi Gamers, welcome to Enigma Innovations!
+
+Here at Enigma Innovations, we don't just create regular games, we also create virtual reality games in which you can indulge yourself in immersive adventures in the world of virtual reality.
+
+<h3><strong>What Do We Offer?</strong></h3>
+
+- List of Virtual Reality Games  
+Explore a diverse set of VR games that are tailored to ignite your senses. From adrenaline rushing action to mind-bending puzzles. We have something for every gamer.
+
+- Cutting-Edge Technology  
+Our games stay up to date with the latest advancements in VR technology, ensuring an ultimate immersive experience. Immersive yourself in stunning visuals, responsive controls and dynamic gameplay.
+
+Interested? Well, what are you waiting for? Come visit our website at [https://enigmainnovations.com/](https://josephwan21.github.io/Assignment-1-FED-/) to find out more on what we can offer to you and other gamers!
+
+The Future of Gaming is here. Dive into Enigma Innovations VR Games today!
+
 Design Process
 -----------------------------
 
-User Audience Intent & Purpose
+<h3><strong>User Audience Intent & Purpose</strong></h3>
 
 - The user audience's intent is to explore virtual reality gaming experiences through our website.
 - Find out more about Enigma Innovations' products
@@ -19,6 +37,16 @@ Who the website caters for
 What the company caters for
 
 - The company itself showcases its products, providing information about the team, and offering a section where users can contact us in case of any inquiries.
+
+<h3><strong>User Story</strong></h3>
+
+- As a user I would want to find out more on the latest virtual reality games offered by the company so I know what are the various types of amazing VR games I could play.
+
+- As a mobile user, I want the website to be responsive and easy to navigate on my device so that I can access parts of the website even when I'm on the go.
+
+- As a customer when inquiries in mind, I would like to be able to easily find the Contact Us section so that I can reach out to the company for support or any further inquiries.
+
+<h3><strong>Wireframes</strong></h3>
 
 Wireframes are included in the project as well, do look forward to it! 
 
@@ -37,14 +65,29 @@ Upon hovering your mouse cursor over images, whether it be on the home page or a
 - Buttons that have redirection capabilities  
 There are buttons specifically "Buy Now" buttons that will redirect you to a Steam webpage that relates to its game.
 
-- Contact Us Input Boxes  
-Allow users to type in particulars in case they wish they have further inquiries on the company or what it offers whatsover.
+- Contact Us Form
+Allow users to type in particulars in case they wish they have further inquiries on the company or what it offers whatsover. 
+
+- Contact Us Form Validation  
+In the case of invalid inputs, the user will receive alerts from the website, telling the user that they should fill in the fields or fill in a proper email address.
+
 
 Technologies Used
 -----------------------------
 - HTML (HyperText Markup Language) - Used for the main structure of the website e.g (what the header is like, where to place it)
 - CSS (Cascading Style Sheets) - Used for the definition of how the website is going to be styled e.g (color of a few elements, arrangements and alignments etc.)
 - JavaScript - Used for Website Interactability & Effects, particularly DOMContentLoaded where it reads the html document and looks for any element that is related to"nav a" to sort of create an animation/effect for navigation links.
+
+Testing
+-----------------------------
+Do test the form validation on the "Contact Us" page/section of the website.
+
+1. Go to the "Contact Us" Section/Page
+2. Try to submit the form with no inputs and verify that an alert about filling in the fields appears.
+3. Try to submit the form with an invalid email address and verify that an alert should show up for that specific input.
+4. Try to submit the form with all inputs being valid and verify that the form is successfully submitted.
+
+There is an issue with the email validation where if even if you put name@gmai... without completing the email, it'll still be considered as a valid input as you fill in all the fields.
 
 Credits
 -----------------------------
@@ -84,9 +127,17 @@ Credits
 <strong>Code References</strong>
 </h3>
 
-- JavaScript DOMContentLoaded Event and EventListener reference from: https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
+- JavaScript DOMContentLoaded Event and EventListener Reference from: https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 
+- JavaScript Form Validation Reference from: https://www.w3schools.com/js/js_validation.asp
 
+- Javascript Email Address Validation Reference from: https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
+
+<h3>
+<strong>Acknowledgements</strong>
+</h3>
+
+- I received inspiration from this website: https://www.picoxr.com/sg
 
 
 
