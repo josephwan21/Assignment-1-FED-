@@ -65,7 +65,7 @@ Upon hovering your mouse cursor over images, whether it be on the home page or a
 - Buttons that have redirection capabilities  
 There are buttons specifically "Buy Now" buttons that will redirect you to a Steam webpage that relates to its game.
 
-- Contact Us Form
+- Contact Us Form  
 Allow users to type in particulars in case they wish they have further inquiries on the company or what it offers whatsover. 
 
 - Contact Us Form Validation  
