@@ -127,6 +127,8 @@ Credits
 <strong>Code References</strong>
 </h3>
 
+- CSS Image Grow Animation Referenced from: https://www.pyxofy.com/css-animation-changing-size/
+
 - JavaScript DOMContentLoaded Event and EventListener Reference from: https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 
 - JavaScript Form Validation Reference from: https://www.w3schools.com/js/js_validation.asp
